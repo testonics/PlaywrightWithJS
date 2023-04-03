@@ -1,0 +1,22 @@
+{
+  "name": "PlaywrightWithJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@axe-core/playwright": "^4.6.0",
+    "@playwright/test": "^1.32.0"
+  },
+  "scripts": {
+    "accessibility": "npx playwright test accessibility.spec.ts --headed --project=chromium",
+    "visual": "npx playwright test visual-comparison.spec.ts --headed --project=chromium",
+    "visual-update": "npx playwright test visual-comparison.spec.ts --headed --project=chromium --update-snapshots",
+    "emulation": "npx playwright test emulation.spec.ts --headed --project=MobileSafari",
+    "auth": "npx playwright test authentication.spec.ts --headed --project=auth",
+    "trace-on": "npx playwright test visual-comparison.spec.ts --headed --project=chromium --trace on",
+    "screenshot": "npx playwright test screenshot.spec.ts --headed --project=chromium --trace on"
+  }
+}

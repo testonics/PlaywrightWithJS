@@ -1,0 +1,102 @@
+[
+  {
+    "rule": "color-contrast",
+    "targets": [
+      [
+        ".DocSearch-Button-Placeholder"
+      ]
+    ]
+  },
+  {
+    "rule": "empty-heading",
+    "targets": [
+      [
+        ".col--6.col:nth-child(2) > h3"
+      ],
+      [
+        ".col--6.col:nth-child(3) > h3"
+      ],
+      [
+        ".col--6.col:nth-child(6) > h3"
+      ],
+      [
+        ".col--6.col:nth-child(7) > h3"
+      ]
+    ]
+  },
+  {
+    "rule": "heading-order",
+    "targets": [
+      [
+        ".col--6.col:nth-child(1) > h3"
+      ]
+    ]
+  },
+  {
+    "rule": "image-alt",
+    "targets": [
+      [
+        "img[src$=\"Browsers.png\"]"
+      ],
+      [
+        "img[src$=\"VSCode.png\"]"
+      ],
+      [
+        "img[src$=\"Bing.png\"]"
+      ],
+      [
+        "img[src$=\"Outlook.png\"]"
+      ],
+      [
+        "img[src$=\"DHotstar.jpg\"]"
+      ],
+      [
+        "img[src$=\"MUI.png\"]"
+      ],
+      [
+        "img[src$=\"ING.png\"]"
+      ],
+      [
+        "img[src$=\"Adobe2.png\"]"
+      ],
+      [
+        "img[src$=\"ReactNavigation.png\"]"
+      ],
+      [
+        "li:nth-child(9) > a[target=\"_blank\"] > img"
+      ]
+    ]
+  },
+  {
+    "rule": "link-name",
+    "targets": [
+      [
+        "a[href$=\"code.visualstudio.com\"]"
+      ],
+      [
+        "a[href$=\"bing.com\"]"
+      ],
+      [
+        "a[href$=\"outlook.com\"]"
+      ],
+      [
+        "a[href$=\"hotstar.com/\"]"
+      ],
+      [
+        "li:nth-child(5) > a[target=\"_blank\"]"
+      ],
+      [
+        "li:nth-child(6) > a[target=\"_blank\"]"
+      ],
+      [
+        "li:nth-child(7) > a[target=\"_blank\"]"
+      ],
+      [
+        "li:nth-child(8) > a[target=\"_blank\"]"
+      ],
+      [
+        "li:nth-child(9) > a[target=\"_blank\"]"
+      ]
+    ]
+  }
+]
